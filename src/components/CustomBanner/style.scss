@@ -1,0 +1,55 @@
+.uploadBox {
+    cursor: pointer;
+    height: 360px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    text-align: center;
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    border: 1px dashed #bfbfbf;
+    h3 {
+      color: #3b3a3a;
+    }
+  }
+  .uploadBox.disabled {
+    border: 2px dashed #aaa;
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    h3,
+    p {
+      color: #aaa;
+    }
+  }
+  .uploadBox.warning {
+    border: 2px dashed #dc0000;
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    h3,
+    p {
+      color: #dc0000;
+    }
+  }
+  .uploadBox.dopzoneFocused {
+    border: 1px dashed #1A1919;
+    background: hsl(0, 0%, 96%);
+    border-width: 1px;
+    background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+  }
+  .uploadBox img {
+  }
+  .uploadBox h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 23px 0 16px 0;
+  }
+  .uploadBox p {
+    color: #706f6f;
+    font-size: 16px;
+    font-weight: 700;
+  }

@@ -1,0 +1,233 @@
+.welcome-container {
+  display: flex;
+  height: 100vh;
+  background-color: white;
+  padding: 0;
+  width: 100%;
+}
+
+.welcome-left {
+  width: 60%;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.welcome-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.welcome-right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 4rem;
+}
+
+.welcome-top-box {
+  margin-bottom: 1rem;
+  width: 400px;
+}
+
+.welcome-dna-box {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem;
+  gap: 1rem;
+  height: 58px;
+}
+
+.welcome-dna-img {
+  height: 45px;
+  width: 46px;
+}
+
+.welcome-dna-logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffc107;
+}
+
+.welcome-logo-img {
+  width: 102.46px;
+  height: 58px;
+}
+
+.welcome-button {
+  background-color: #1c1c1c;
+  border: 1px solid #7f56d9;
+  border-radius: 8px;
+  width: 400px;
+  height: 44px;
+  padding: 0;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.welcome-button-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.welcome-ms-logo {
+  width: 24px;
+  height: 23px;
+}
+
+/* .login-sso {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .section-left {
+    flex: 1;
+    position: relative;
+    background-image: url('https://dashboard.codeparrot.ai/api/image/Z-_iEeGYgKEKiAne/section.png');
+    background-size: cover;
+  }
+  
+  .background-overlay,
+  .background-overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .background-overlay {
+    background-image: url('https://dashboard.codeparrot.ai/api/image/Z-_iEeGYgKEKiAne/backgrou.png');
+  }
+  
+  .background-overlay-2 {
+    background-image: url('https://dashboard.codeparrot.ai/api/image/Z-_iEeGYgKEKiAne/backgrou-2.png');
+  }
+  
+  .container {
+    position: relative;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .content {
+    max-width: 672px;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: -1.44px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #545454;
+    margin: 0;
+  }
+  
+  .section-right {
+    width: 528px;
+    padding: 453px 64px 0;
+  }
+  
+  .login-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dna-logo {
+    background: #000000;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 50px;
+  }
+  
+  .bar-container {
+    display: flex;
+    gap: 3px;
+    padding: 1.5px 2px;
+  }
+  
+  .bar {
+    width: 8px;
+    height: auto;
+  }
+  
+  .dna-text {
+    color: #FFF200;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  .company-logo {
+    width: 102.46px;
+    height: 58px;
+  }
+  
+  .sso-button {
+    width: 100%;
+    background: #1C1C1C;
+    border: 1px solid #7F56D9;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sso-button:hover {
+    background: #2C2C2C;
+  }
+  
+  .ms-icon {
+    width: 24px;
+    height: 23px;
+  }
+  
+  .sso-button span {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 91px;
+  }
+  
+   */

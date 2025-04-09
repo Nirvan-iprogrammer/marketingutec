@@ -1,0 +1,58 @@
+.module-performance-layout {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 80px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 2rem;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.main-content-module {
+  flex-grow: 1;
+  /* padding: 2rem; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+
+.module-tabs {
+  display: flex;
+  gap: 1rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f9fafb;
+  color: #344054;
+}
+
+.tab.active {
+  background-color: #000;
+  color: #fff;
+}

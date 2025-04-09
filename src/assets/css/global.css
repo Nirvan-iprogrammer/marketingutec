@@ -1,0 +1,189 @@
+.full-height-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.c-p {
+  cursor: pointer;
+}
+.c-NA {
+  cursor: not-allowed !important;
+}
+.bg-gradient-info {
+  background: linear-gradient(87deg, #fffca9 0, #fff204 100%) !important;
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px; /* Adjust the height and width as needed */
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px; /* Optional: Adjust the margin as needed */
+  border: 1px dashed #ccc;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.avatar-container:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.avatar-container.product-image-container {
+  border-radius: 0.375rem;
+  height: 300px; /* Adjust the height and width as needed */
+  width: 300px;
+  background-color: #fffca950;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.avatar-placeholder {
+  font-size: 150px;
+  color: #0086f31c;
+}
+.product-placeholder {
+  font-size: 150px;
+  color: #fff2043f;
+}
+
+.avatar-image.product-image {
+  border-radius: 0;
+}
+
+.flex-column-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.remove-text-btn {
+  color: red;
+  cursor: pointer;
+}
+
+/* LoadingOverlay.css */
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333; /* Text color */
+  z-index: 9999;
+}
+
+.ql-toolbar.ql-snow {
+  border: 0;
+  /* border-bottom: 1px solid #eee; */
+}
+.ql-toolbar {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15);
+  border: 0;
+  transition: box-shadow 0.15s ease;
+}
+.ql-container {
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  border: 0;
+  transition: box-shadow 0.15s ease;
+  height: 100px;
+}
+
+.ql-container.ql-snow {
+  border: 0;
+}
+
+input[type="search"]::-webkit-search-decoration:hover,
+input[type="search"]::-webkit-search-cancel-button:hover {
+  cursor: pointer;
+}
+.searchBar::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+.toolTipWrap {
+  max-width: 600px;
+  max-height: 250px;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  cursor: pointer;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  cursor: pointer;
+}
+
+.custom-switch .custom-control-label::before {
+  cursor: pointer;
+}
+.custom-switch .custom-control-label::after {
+  cursor: pointer;
+}
+
+.orange-Badge {
+  color: #ff8609;
+  background-color: rgb(254 228 189 / 85%);
+}
+
+/* input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 4px;
+  accent-color: #fff204;
+  cursor: pointer;
+} */
+
+input[type="checkbox"] {
+  padding: 4px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  appearance: none; /* Hide default checkbox appearance */
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border: 1px solid #525f7f;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #fff204;
+  border: none;
+  &::before {
+    content: ""; /*  "\f00c"; Checkmark symbol */
+    background: url(../img/icons/checkmarkBlack.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%);
+  }
+}
+.catitalizeFirstLetter {
+  text-transform: capitalize;
+}
+
+.cursor-disabled {
+  cursor: not-allowed;
+}

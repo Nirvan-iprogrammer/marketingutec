@@ -1,0 +1,58 @@
+.previewProfileImage {
+  width: 50px;
+  height: 50px;
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  i {
+    border-radius: 50%;
+    object-fit: cover;
+    font-size: 50px;
+    color: #0086f31c;
+  }
+}
+
+.userRadio{
+.radioButton{
+  .form-check{
+    padding-left: 0;
+    margin-right: 20px;
+    .custom-radio{
+      margin-right: -15px;
+    }
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: black; /* Set checked color to black */
+    border-color: black; /* Ensure border matches checked color */
+    color: black;
+  }
+
+/* Optionally adjust unchecked color (if desired) */
+.custom-control-input:not(:checked) ~ .custom-control-label::before {
+  background-color: #ccc; /* Example unchecked color */
+  border-color: #ccc; /* Match border to unchecked color */
+}
+
+.custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
+  cursor: not-allowed;
+}
+
+}
+}
+
+/* Style for the button alignment */
+.sample-template-btn {
+  position: absolute;
+  right: 15px; /* Adjust to fit the screen */
+  top: 15px;   /* Adjust for vertical alignment */
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  .sample-template-btn {
+      right: 10px; /* Slightly adjust for smaller screens */
+      top: 10px;
+  }
+}

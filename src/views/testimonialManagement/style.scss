@@ -1,0 +1,26 @@
+.toolTipWrap {
+  word-break: break-all;
+  white-space: normal;
+}
+.testimonialImage {
+  .preview {
+    height: 268px;
+    width: 241px;
+    // width: 70%;
+    margin: 0 auto;
+  }
+
+  .testimonialFileUpload {
+    height: 268px;
+    width: 241px;
+  }
+  .uploadBox {
+    // width: 70%;
+    margin: 0 auto;
+  }
+  .imageLabel {
+    display: block;
+    // width: 70%;
+    margin: 0 auto 7px auto;
+  }
+}

@@ -1,0 +1,109 @@
+{
+    "status": 200,
+    "message": "DATA_RETRIEVED_SUCCESSFULLY | master tables list",
+    "data": {
+        "transaction_id": "223bc67f-eb86-491c-b4de-9a486fc7e1e2",
+        "result": [
+            {
+                "table_id": "PBR_MDM_0001",
+                "table_name": "master_product_stage"
+            },
+            {
+                "table_id": "PBR_MDM_0002",
+                "table_name": "master_product"
+            },
+            {
+                "table_id": "PBR_MDM_0003",
+                "table_name": "product_classification_vsp"
+            },
+            {
+                "table_id": "PBR_MDM_0004",
+                "table_name": "master_challenge"
+            },
+            {
+                "table_id": "PBR_MDM_0005",
+                "table_name": "stakeholder_level_mapping"
+            },
+            {
+                "table_id": "PBR_MDM_0006",
+                "table_name": "master_subsectors"
+            },
+            {
+                "table_id": "PBR_MDM_0007",
+                "table_name": "master_application"
+            },
+            {
+                "table_id": "PBR_MDM_0009",
+                "table_name": "subsubstages"
+            },
+            {
+                "table_id": "PBR_ENT_0001",
+                "table_name": "pbr_area_of_application"
+            },
+            {
+                "table_id": "PBR_ENT_0002",
+                "table_name": "pbr_brand_product"
+            },
+            {
+                "table_id": "PBR_ENT_0003",
+                "table_name": "pbr_category"
+            },
+            {
+                "table_id": "PBR_ENT_0004",
+                "table_name": "pbr_challenge"
+            },
+            {
+                "table_id": "PBR_ENT_0005",
+                "table_name": "pbr_lob"
+            },
+            {
+                "table_id": "PBR_ENT_0006",
+                "table_name": "pbr_material_code"
+            },
+            {
+                "table_id": "PBR_ENT_0007",
+                "table_name": "pbr_product"
+            },
+            {
+                "table_id": "PBR_ENT_0008",
+                "table_name": "pbr_product_classification"
+            },
+            {
+                "table_id": "PBR_ENT_0009",
+                "table_name": "pbr_product_group"
+            },
+            {
+                "table_id": "PBR_ENT_0010",
+                "table_name": "pbr_sector"
+            },
+            {
+                "table_id": "PBR_ENT_0011",
+                "table_name": "pbr_segment"
+            },
+            {
+                "table_id": "PBR_ENT_0012",
+                "table_name": "pbr_sku"
+            },
+            {
+                "table_id": "PBR_ENT_0013",
+                "table_name": "pbr_stage"
+            },
+            {
+                "table_id": "PBR_ENT_0014",
+                "table_name": "pbr_sub_area_of_application"
+            },
+            {
+                "table_id": "PBR_ENT_0015",
+                "table_name": "pbr_sub_sector"
+            },
+            {
+                "table_id": "PBR_ENT_0016",
+                "table_name": "pbr_sub_stage"
+            },
+            {
+                "table_id": "PBR_ENT_0017",
+                "table_name": "pbr_sub_sub_stage"
+            }
+        ]
+    }
+}

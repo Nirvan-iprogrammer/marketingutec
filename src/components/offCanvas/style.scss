@@ -1,0 +1,21 @@
+.off-canvas-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; /* Adjust width as needed */
+    height: 100%;
+    background-color: #fff; /* Adjust background color as needed */
+    z-index: 10000; /* Ensure it's above other content */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  }
+  
+  .off-canvas-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  hr{
+    margin: 0;
+  }
+  

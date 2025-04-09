@@ -1,0 +1,44 @@
+.no-data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 509px;
+    min-height: 435px;
+    padding: 20px;
+  }
+  
+  .no-data-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .no-data-title {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1D2939;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .no-data-image {
+    width: 509px;
+    height: 373px;
+    object-fit: contain;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .no-data-container {
+      min-width: 300px;
+      padding: 10px;
+    }
+    
+    .no-data-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

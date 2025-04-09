@@ -1,0 +1,139 @@
+.page-header {
+    width: 100%;
+    min-width: 768px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background: #fff;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .breadcrumb-home {
+    padding: 0.25rem;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-home:hover {
+    background: #f9fafb;
+  }
+  
+  .breadcrumb-home img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .chevron {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .breadcrumb-current {
+    padding: 0.25rem 0.5rem;
+    background: #f9fafb;
+    border: none;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 58px;
+    width: auto;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .title-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .back-arrow {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #101828;
+    margin: 0;
+    line-height: 38px;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .action-button {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .action-button:hover {
+    background: #f9fafb;
+  }
+  
+  .action-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .avatar-button {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #f9fafb;
+    border: 4px solid #f2f4f7;
+    border-radius: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-avatar {
+    width: 20px;
+    height: 20px;
+  }
+  
+  

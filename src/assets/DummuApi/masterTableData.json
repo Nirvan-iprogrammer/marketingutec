@@ -1,0 +1,961 @@
+{
+    "status": 200,
+    "message": "DATA_RETRIEVED_SUCCESSFULLY | TABLE pbr_product",
+    "data": {
+        "transaction_id": "dc168379-aef6-4757-9e43-6e8220ac6990",
+        "editables": {
+            "product_code": "PRD00113",
+                "product": "ULTRATECH WEATHER PLUS-PPC",
+                "product_group_code": "PRDGRP032",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+        },
+        "result": [
+            {
+                "product_code": "PRD00113",
+                "product": "ULTRATECH WEATHER PLUS-PPC",
+                "product_group_code": "PRDGRP032",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00092",
+                "product": "ULTRATECH IFLOORS",
+                "product_group_code": "PRDGRP015",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00070",
+                "product": "ULTRATECH CEMENT-READIPLAST",
+                "product_group_code": "PRDGRP034",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00087",
+                "product": "ULTRATECH FREEFLOW",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00083",
+                "product": "ULTRATECH FIBRECON",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00005",
+                "product": "BITUPRO",
+                "product_group_code": "PRDGRP006",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00055",
+                "product": "TILEFIXO X'TRAPLUS GREY",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00077",
+                "product": "ULTRATECH DÉCOR",
+                "product_group_code": "PRDGRP010",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00027",
+                "product": "READIPLAST GREEN",
+                "product_group_code": "PRDGRP034",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00015",
+                "product": "MICROKRETE HS 2",
+                "product_group_code": "PRDGRP022",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00104",
+                "product": "ULTRATECH SLAB PLUS",
+                "product_group_code": "PRDGRP004",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00016",
+                "product": "MICROKRETE HS 3",
+                "product_group_code": "PRDGRP022",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00044",
+                "product": "TILEFIXO - NT",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00066",
+                "product": "ULTRATECH CEMENT-OPC 53",
+                "product_group_code": "PRDGRP025",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00114",
+                "product": "ULTRATECH WHITE TOPPING",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00103",
+                "product": "ULTRATECH SHRINKAGE REDUCING CONCRETE",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00036",
+                "product": "SEAL & DRY ILW +",
+                "product_group_code": "PRDGRP040",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00067",
+                "product": "ULTRATECH CEMENT-PlasterPlus",
+                "product_group_code": "PRDGRP029",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00110",
+                "product": "ULTRATECH WATER PROOFING CONCRETE",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00117",
+                "product": "WEATHERPRO WP+ 200",
+                "product_group_code": "PRDGRP053",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00024",
+                "product": "POWER GROUT NS3 (F)",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00071",
+                "product": "ULTRATECH CEMENT-SLAG",
+                "product_group_code": "PRDGRP043",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00075",
+                "product": "ULTRATECH CONCRETE",
+                "product_group_code": "PRDGRP035",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00064",
+                "product": "ULTRATECH CEMENT-LIMESTONE CLAY CEMENT",
+                "product_group_code": "PRDGRP021",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00079",
+                "product": "ULTRATECH DURACON PLUS",
+                "product_group_code": "PRDGRP011",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00097",
+                "product": "ULTRATECH PREMIUM-PPC",
+                "product_group_code": "PRDGRP032",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00009",
+                "product": "FLOOR HARDENER",
+                "product_group_code": "PRDGRP016",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00090",
+                "product": "ULTRATECH HIGH EARLY STRENGTH CONCRETE",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00006",
+                "product": "CRACKFILLER",
+                "product_group_code": "PRDGRP008",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00053",
+                "product": "TILEFIXO SUMO",
+                "product_group_code": "PRDGRP048",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00086",
+                "product": "ULTRATECH FOUNDATION PLUS",
+                "product_group_code": "PRDGRP004",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00115",
+                "product": "ULTRATECH XTREME",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00008",
+                "product": "FIXOBLOCK",
+                "product_group_code": "PRDGRP014",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00089",
+                "product": "ULTRATECH GREENVANTAGE",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00102",
+                "product": "ULTRATECH SHOTCRETE",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00013",
+                "product": "HIGH EARLY STRENGTH",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00074",
+                "product": "ULTRATECH COLUMN PLUS",
+                "product_group_code": "PRDGRP004",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00068",
+                "product": "ULTRATECH CEMENT-PPC",
+                "product_group_code": "PRDGRP032",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00063",
+                "product": "ULTRATECH CEMENT-LIMESTONE CALCINED CLAY CEMENT",
+                "product_group_code": "PRDGRP020",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00033",
+                "product": "SEAL & DRY 5 PLUS",
+                "product_group_code": "PRDGRP037",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00007",
+                "product": "DRY LEAN CONCRETE",
+                "product_group_code": "PRDGRP027",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00025",
+                "product": "POWERGROUT INSULATOR",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00034",
+                "product": "SEAL & DRY FLEX",
+                "product_group_code": "PRDGRP038",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00035",
+                "product": "SEAL & DRY HIFLEX",
+                "product_group_code": "PRDGRP039",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00059",
+                "product": "ULTRATECH AQUASEAL",
+                "product_group_code": "PRDGRP003",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00029",
+                "product": "READIPLAST III",
+                "product_group_code": "PRDGRP034",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00014",
+                "product": "MICROKRETE HS 1",
+                "product_group_code": "PRDGRP022",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00109",
+                "product": "ULTRATECH UHPC",
+                "product_group_code": "PRDGRP004",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00023",
+                "product": "POWER GROUT NS2 (N)",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00098",
+                "product": "ULTRATECH PREMIUM-SLAG",
+                "product_group_code": "PRDGRP043",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00106",
+                "product": "ULTRATECH SUPER-PPC",
+                "product_group_code": "PRDGRP032",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00076",
+                "product": "ULTRATECH CORROPROTECT",
+                "product_group_code": "PRDGRP011",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00073",
+                "product": "ULTRATECH COLORCON",
+                "product_group_code": "PRDGRP010",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00091",
+                "product": "ULTRATECH HYPERCON",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00028",
+                "product": "READIPLAST II",
+                "product_group_code": "PRDGRP034",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00002",
+                "product": "BASEKRETE HS 2",
+                "product_group_code": "PRDGRP005",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00080",
+                "product": "ULTRATECH DURAFACAD",
+                "product_group_code": "PRDGRP010",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00054",
+                "product": "TILEFIXO VT WHITE",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00045",
+                "product": "TILEFIXO - VT",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00052",
+                "product": "TILEFIXO RAPID",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00085",
+                "product": "ULTRATECH FLOW FILL",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00057",
+                "product": "TOP SHIELD",
+                "product_group_code": "PRDGRP002",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00018",
+                "product": "POWER GROUT GUN MORTOR",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00062",
+                "product": "ULTRATECH CEMENT-GGB SLAG",
+                "product_group_code": "PRDGRP018",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00096",
+                "product": "ULTRATECH PLUS CONCRETE",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00020",
+                "product": "POWER GROUT NS1 (F)",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00100",
+                "product": "ULTRATECH RMC",
+                "product_group_code": "PRDGRP035",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00101",
+                "product": "ULTRATECH SECANT PILE",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00046",
+                "product": "TILEFIXO - XT",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00003",
+                "product": "BATHROOM KIT",
+                "product_group_code": "PRDGRP045",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00038",
+                "product": "SEAL & DRY SINGLE COMPONENT",
+                "product_group_code": "PRDGRP042",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00022",
+                "product": "POWER GROUT NS2 (F)",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00108",
+                "product": "ULTRATECH THERMOCON PLUS",
+                "product_group_code": "PRDGRP003",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00049",
+                "product": "TILEFIXO CG",
+                "product_group_code": "PRDGRP051",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00061",
+                "product": "ULTRATECH CEMENT-EXPORT GRADE",
+                "product_group_code": "PRDGRP012",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00031",
+                "product": "READIPLAST SCWR",
+                "product_group_code": "PRDGRP034",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00037",
+                "product": "SEAL & DRY SBR",
+                "product_group_code": "PRDGRP041",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00032",
+                "product": "REPAIR POLYMER MORTAR",
+                "product_group_code": "PRDGRP036",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00043",
+                "product": "TILEFIXO - CT",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00058",
+                "product": "ULTRATECH AQUANEUTRA",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00060",
+                "product": "ULTRATECH CEMENT-COMPOSITE CEMENT",
+                "product_group_code": "PRDGRP030",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00081",
+                "product": "ULTRATECH ENVIROPLUS",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00041",
+                "product": "TENDONFILL",
+                "product_group_code": "PRDGRP049",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00082",
+                "product": "ULTRATECH FAST",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00010",
+                "product": "FLOORKRETE SL 1",
+                "product_group_code": "PRDGRP017",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00094",
+                "product": "ULTRATECH MAXSHEEN",
+                "product_group_code": "PRDGRP010",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00088",
+                "product": "ULTRATECH FREEFLOW PLUS",
+                "product_group_code": "PRDGRP003",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00107",
+                "product": "ULTRATECH THERMOCON",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00017",
+                "product": "MYCROFILL",
+                "product_group_code": "PRDGRP023",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00084",
+                "product": "ULTRATECH FIRESAFE",
+                "product_group_code": "PRDGRP003",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00072",
+                "product": "ULTRATECH CEMENT-SULPHATE RESISTANT CEMENT",
+                "product_group_code": "PRDGRP046",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00056",
+                "product": "TILEFIXO X'TRAPLUS WHITE",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00111",
+                "product": "ULTRATECH WATERPROOFING",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00047",
+                "product": "TILEFIXO - YT",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00099",
+                "product": "ULTRATECH RAPID",
+                "product_group_code": "PRDGRP044",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00021",
+                "product": "POWER GROUT NS1 (N)",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00042",
+                "product": "TILE CLEANER",
+                "product_group_code": "PRDGRP050",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00051",
+                "product": "TILEFIXO EG 3K",
+                "product_group_code": "PRDGRP052",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00116",
+                "product": "ULTRATECH ZIP",
+                "product_group_code": "PRDGRP044",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00069",
+                "product": "ULTRATECH CEMENT-RAPID HARDENING CEMENT",
+                "product_group_code": "PRDGRP033",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00019",
+                "product": "POWER GROUT NS 65",
+                "product_group_code": "PRDGRP031",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00040",
+                "product": "SUPER STUCCO",
+                "product_group_code": "PRDGRP047",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00050",
+                "product": "TILEFIXO EG 2K",
+                "product_group_code": "PRDGRP052",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00105",
+                "product": "ULTRATECH STAINLESS",
+                "product_group_code": "PRDGRP009",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00004",
+                "product": "BIRLA SUPER-OPC 53 S",
+                "product_group_code": "PRDGRP019",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00093",
+                "product": "ULTRATECH LITECON",
+                "product_group_code": "PRDGRP015",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00112",
+                "product": "ULTRATECH WEATHER PLUS-PORTLAND COMPOSITE CEMENT",
+                "product_group_code": "PRDGRP030",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00065",
+                "product": "ULTRATECH CEMENT-OPC 43",
+                "product_group_code": "PRDGRP024",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00011",
+                "product": "FLOORKRETE SL 2",
+                "product_group_code": "PRDGRP017",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00095",
+                "product": "ULTRATECH PERVIOUS",
+                "product_group_code": "PRDGRP010",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00078",
+                "product": "ULTRATECH DURACON",
+                "product_group_code": "PRDGRP028",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00001",
+                "product": "AAC FRESH BLOCKS",
+                "product_group_code": "PRDGRP001",
+                "record_create_time": "2024-09-26T12:52:21.964535",
+                "record_update_time": "2024-09-26T12:52:21.964535",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00012",
+                "product": "FLOORKRETE SL 3",
+                "product_group_code": null,
+                "record_create_time": "2024-09-27T15:59:54.328583",
+                "record_update_time": "2024-09-27T15:59:54.328583",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00026",
+                "product": "POWERGROUT NS3 (SP)",
+                "product_group_code": null,
+                "record_create_time": "2024-09-27T15:59:54.328583",
+                "record_update_time": "2024-09-27T15:59:54.328583",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00030",
+                "product": "READIPLAST PROJEKT",
+                "product_group_code": null,
+                "record_create_time": "2024-09-27T15:59:54.328583",
+                "record_update_time": "2024-09-27T15:59:54.328583",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00039",
+                "product": "SPRAYOPLAST",
+                "product_group_code": null,
+                "record_create_time": "2024-09-27T15:59:54.328583",
+                "record_update_time": "2024-09-27T15:59:54.328583",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "PRD00048",
+                "product": "TILEFIXO CT STRONG",
+                "product_group_code": null,
+                "record_create_time": "2024-09-27T15:59:54.328583",
+                "record_update_time": "2024-09-27T15:59:54.328583",
+                "is_deleted": 0
+            },
+            {
+                "product_code": "NEWPRODUCT",
+                "product": "New Product",
+                "product_group_code": "PRDGRP001",
+                "record_create_time": "2024-10-04T13:43:52.889439",
+                "record_update_time": "2024-10-04T13:43:52.889439",
+                "is_deleted": 0
+            }
+        ]
+    }
+}

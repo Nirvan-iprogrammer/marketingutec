@@ -1,0 +1,10 @@
+.cropper-modal {
+  .cropper-body {
+    display: flex;
+    justify-content: center;
+    .cropper {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
