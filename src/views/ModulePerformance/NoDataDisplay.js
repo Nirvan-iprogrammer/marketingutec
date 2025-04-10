@@ -8,7 +8,7 @@ const NoDataDisplay = ({ message = 'No Data to Display' }) => {
       <div className="no-data-content">
         <h2 className="no-data-title">{message}</h2>
         <img 
-          src="https://dashboard.codeparrot.ai/api/image/Z_S1z4Di91IKZZnP/no-data.png" 
+          src={require('../../assets/img/icons/common/no-data/pana.png')}
           alt="No data illustration" 
           className="no-data-image"
         />

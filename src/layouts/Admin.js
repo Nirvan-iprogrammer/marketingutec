@@ -22,6 +22,7 @@ import { resetCategorySection } from "redux/reducers/CategoryReducer";
 import Footer from "components/Footers/footer";
 
 const Admin = ( props ) => {
+  console.log("Admin props", props);
   const { isAuthenticated } = useSelector((store) => store.auth);
   const { logout } = useAuth();
   const mainContent = React.useRef(null);
@@ -29,6 +30,7 @@ const Admin = ( props ) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [pageName, setPageName] = useState("");
   
   const toggleSidebar = () => {
       setIsCollapsed(!isCollapsed);
@@ -74,17 +76,43 @@ const Admin = ( props ) => {
       }
     });
   };
+
+  // const getBrandText = (path) => {
+  //   for (let i = 0; i < routes.length; i++) {
+  //     if (
+  //       props?.location?.pathname.indexOf(routes[i].layout + routes[i].path) !==
+  //       -1
+  //     ) {
+  //       return routes[i].name;
+  //     }
+  //   }
+  //   return "Brand";
+  // };
+  
+
   const getBrandText = (path) => {
     for (let i = 0; i < routes.length; i++) {
-      if (
-        props?.location?.pathname.indexOf(routes[i].layout + routes[i].path) !==
-        -1
-      ) {
-        return routes[i].name;
-      }
+      const fullPath = routes[i].layout + routes[i].path;
+  
+      // Match static route
+      if (path === fullPath) return routes[i].name;
+  
+      // Match dynamic route like /admin/user/123
+      const dynamicMatch = fullPath
+        .replace(/:\w+/g, "[^/]+") // Replace :params with wildcard
+        .replace(/\//g, "\\/");
+  
+      const regex = new RegExp(`^${dynamicMatch}$`);
+      if (regex.test(path)) return routes[i].name;
     }
+  
     return "Brand";
   };
+
+  React.useEffect(() => {
+    const currentPageName = getBrandText(location.pathname);
+    setPageName(currentPageName);
+  }, [location]);
 
   return (
     <>
@@ -112,7 +140,12 @@ const Admin = ( props ) => {
               {...props}
               brandText={getBrandText(props?.location?.pathname)}
             /> */}
-            <Layout  isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
+            <Layout
+             pageName={pageName} 
+             isCollapsed={isCollapsed} 
+             toggleSidebar={toggleSidebar} 
+            
+             />
             <Routes>
               {getRoutes(routes)}
               {/* <Route
@@ -167,7 +200,7 @@ const Admin = ( props ) => {
             {...props}
             brandText={getBrandText(props?.location?.pathname)}
           /> */}
-          <Layout  isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
+          <Layout pageName={pageName}  isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
           <Routes>
             {getRoutes(routes)}
             <Route

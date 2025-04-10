@@ -18,6 +18,15 @@ const MainContent = () => {
     const [page, setPage] = useState(1);
     const [size, setSize] = useState(10);
     const [searchString, setSearchString] = useState("");
+    const [showForm, setShowForm] = useState(false);
+
+
+
+    const handleEditTable = () => {
+        // Logic to handle edit table action
+        console.log("Edit table clicked");
+        setShowForm(showForm => !showForm);
+    }
 
     const columnData = [
         {
@@ -89,6 +98,13 @@ const MainContent = () => {
         getMastTableData();
     }, []);
 
+  
+  const lastIndexPage = page * size;
+  const firstIndexPage = lastIndexPage - size;
+  const displayItems = masterData.slice(firstIndexPage, lastIndexPage);
+
+
+
     return (
         <div className="main-content-table">
             <SelectBox masterData={masterDataKey} selectedTable={selectedTable} setSelectedTable={setSelectedTable} />
@@ -109,18 +125,20 @@ const MainContent = () => {
                     />
                 </div>
             </div>
+            
 
             <div className="table-container">
                 <CustomTable
                     columnData={columnData}
-                    dataTable={masterData}
+                    dataTable={displayItems}
                     page={page}
                     size={size}
                     totalRecords={masterData.length}
-                    paginate={({ page, sizePerPage }) => {
+                    paginate={(type, { page, sizePerPage }) => {
+                        console.log("Paginate called:", type, page, sizePerPage);
                         setPage(page);
                         setSize(sizePerPage);
-                    }}
+                      }}
                     keyField="product_code"
                     showPagination={true}
                     showSearchInput={false}
@@ -130,14 +148,17 @@ const MainContent = () => {
                 />
             </div>
 
-            <div className="add-row">
-                <Button className="add-button" onClick={() => console.log("Add new row")}>+</Button>
-                <span>Add new row</span>
-            </div>
+            {showForm && (
+                <div className="add-row">
+                    <Button className="add-button" onClick={() => console.log("Add new row")}>+</Button>
+                    <span>Add new row</span>
+                </div>
+            )}
+
 
             <div className="actions-section">
                 <div className="action-buttons">
-                    <button className="action-button-table">
+                    <button className="action-button-table" onClick={handleEditTable}>
                         <img src={require("../../assets/img/icons/common/Group.png")} alt="edit" style={{ width: '24px', height: '24px' }} />
                         Edit data
                     </button>
@@ -152,7 +173,11 @@ const MainContent = () => {
                 </button>
             </div>
 
-            <FormSection />
+            {showForm && (
+                <div className="form-section">
+                    <FormSection />
+                </div>
+            )}
         </div>
     );
 };

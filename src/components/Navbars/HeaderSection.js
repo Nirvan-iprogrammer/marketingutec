@@ -7,8 +7,11 @@ const HeaderSection = ({
     notificationCount = 0,
     logoSrc = "https://dashboard.codeparrot.ai/api/image/Z-_Gqwz4-w8v6STA/image-15.png",
     isCollapsed,
-    toggleSidebar
+    toggleSidebar, 
+    pageName 
 }) => {
+
+    console.log("HeaderSection", pageName);
     return (
         <header className="header-section">
             <div className="header-container">
@@ -24,7 +27,7 @@ const HeaderSection = ({
                         <img src={require("../../assets/img/brand/image 15.png")} alt="Company Logo" className="logo" />
                     </div>
                     <div className="content">
-                        <h1 className="title">Data</h1>
+                        <h1 className="title">{pageName}</h1>
                         <div className="user-actions">
                             <button className="action-button" aria-label="Settings">
                                 <img src={require("../../assets/img/icons/common/Icon.png")} alt="" className="action-icon" />

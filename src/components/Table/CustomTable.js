@@ -65,6 +65,7 @@ const CustomTable = ({
     setDebounceSearch(value);
   };
 
+  console.log("totalRecords", totalRecords, size, page);
   return (
     <>
       <PaginationProvider
