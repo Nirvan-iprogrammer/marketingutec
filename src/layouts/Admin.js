@@ -107,7 +107,7 @@ const Admin = ( props ) => {
             //   imgAlt: "...",
             // }}
           />
-          <div className="main-content" style={{marginLeft : isCollapsed? "80px": "260px"}} ref={mainContent}>
+          <div className="main-content" style={{marginLeft : isCollapsed? "80px": "260px", paddingBottom: "100px"}} ref={mainContent}>
             {/* <AdminNavbar
               {...props}
               brandText={getBrandText(props?.location?.pathname)}
@@ -162,7 +162,7 @@ const Admin = ( props ) => {
           //   imgAlt: "...",
           // }}
         />
-        <div className="main-content" style={{marginLeft : isCollapsed? "80px": "250px"}} ref={mainContent}>
+        <div className="main-content" style={{marginLeft : isCollapsed? "80px": "250px", paddingBottom: "100px"}} ref={mainContent}>
           {/* <AdminNavbar
             {...props}
             brandText={getBrandText(props?.location?.pathname)}

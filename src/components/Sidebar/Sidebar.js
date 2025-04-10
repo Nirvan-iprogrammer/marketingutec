@@ -124,7 +124,7 @@ const Sidebar = (props) => {
   const createLinks = (routes) => {
 
     return routes.map((prop, key) => {
-      console.log("prop", prop)
+      console.log("propIcon", prop.icon)
       if (!prop.isSidebarLink) return null;
       if (
         prop?.name?.toLowerCase() === "user management" &&

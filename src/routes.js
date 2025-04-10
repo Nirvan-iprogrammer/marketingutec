@@ -32,13 +32,6 @@ var routes = [
   {
     path: "/login",
     name: "Login",
-    icon: (
-      <img
-        src={QuestionIcon}
-        alt="Example"
-        style={{ width: 20, height: 20 }}
-      />
-    ),
     component: <Login />,
     layout: "/auth",
     isSidebarLink: false,
@@ -54,7 +47,7 @@ var routes = [
   {
     path: "/scenario",
     name: "Scenario Performance",
-    icon: "fas fa-bars",
+    icon: "ni ni-single-02",
     component: <LoginSSO />,
     layout: "/admin",
     isSidebarLink: true
