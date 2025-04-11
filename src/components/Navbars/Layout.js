@@ -3,7 +3,7 @@ import HeaderSection from './HeaderSection';
 import './Layout.css';
 
 const Layout = ({isCollapsed, toggleSidebar, pageName}) => {
-
+  
     return (
         <div className="app-wrapper">
 
@@ -17,7 +17,7 @@ const Layout = ({isCollapsed, toggleSidebar, pageName}) => {
 
                     logoSrc="https://dashboard.codeparrot.ai/api/image/Z-_Gqwz4-w8v6STA/image-15.png"
                 />
-                {/* Main content goes here */}
+               
             </div>
         </div>
     );

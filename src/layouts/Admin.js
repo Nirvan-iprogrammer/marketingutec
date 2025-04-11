@@ -110,9 +110,9 @@ const Admin = ( props ) => {
   };
 
   React.useEffect(() => {
-    const currentPageName = getBrandText(location.pathname);
-    setPageName(currentPageName);
-  }, [location]);
+  const currentPageName = getBrandText(location.pathname);
+  setPageName(currentPageName);
+}, [location]);
 
   return (
     <>
@@ -144,7 +144,6 @@ const Admin = ( props ) => {
              pageName={pageName} 
              isCollapsed={isCollapsed} 
              toggleSidebar={toggleSidebar} 
-            
              />
             <Routes>
               {getRoutes(routes)}

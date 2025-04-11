@@ -28,43 +28,58 @@ const MainContent = () => {
         setShowForm(showForm => !showForm);
     }
 
-    const columnData = [
-        {
-            dataField: "actions",
-            text: "Actions",
-            isDummyField: true,
-            formatter: (cell, row) => (
-                <div className="d-flex gap-2">
-                    <button
-                        onClick={() => handleDelete(row.product_code)}
-                        className="icon-button"
-                    >
-                        <img src={require("../../assets/img/icons/common/Icon (3).png")} alt="delete" style={{ width: '24px', height: '24px' }} />
-                    </button>
-                </div>
-            ),
-        },
-        {
-            dataField: "product_code",
-            text: "Product Code",
-            sort: true,
-        },
-        {
-            dataField: "product",
-            text: "Product Name",
-            sort: true,
-        },
-        {
-            dataField: "product_group_code",
-            text: "Product Group",
-            sort: true,
-        },
-        {
-            dataField: "record_create_time",
-            text: "Created At",
-            formatter: (cell) => new Date(cell).toLocaleDateString(),
-        },
-    ];
+
+    const getColumnData = (showActions) => {
+        const baseColumns = [
+            {
+                dataField: "product_code",
+                text: "Product Code",
+                sort: true,
+            },
+            {
+                dataField: "product",
+                text: "Product Name",
+                sort: true,
+            },
+            {
+                dataField: "product_group_code",
+                text: "Product Group",
+                sort: true,
+            },
+            {
+                dataField: "record_create_time",
+                text: "Created At",
+                formatter: (cell) => new Date(cell).toLocaleDateString(),
+            },
+        ];
+    
+        if (showActions) {
+            baseColumns.unshift({
+                dataField: "actions",
+                text: "",
+                isDummyField: true,
+                formatter: (cell, row) => (
+                    <div className="d-flex gap-2">
+                        <button
+                            onClick={() => handleDelete(row.product_code)}
+                            className="icon-button"
+                        >
+                            <img
+                                src={require("../../assets/img/icons/common/Icon (3).png")}
+                                alt="delete"
+                                style={{ width: '24px', height: '24px' }}
+                            />
+                        </button>
+                    </div>
+                ),
+            });
+        }
+    
+        return baseColumns;
+    };
+    
+    // Then in your component
+    const columnData = getColumnData(showForm); // or false
 
     const handleDelete = (id) => {
         const confirm = window.confirm("Are you sure to delete?");

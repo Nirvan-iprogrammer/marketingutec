@@ -22,7 +22,7 @@ const HeaderSection = ({
                                 <img src={require("../../assets/img/icons/common/home.png")} alt="home" className="home-icon" />
                             </button>
                             <img src={require("../../assets/img/icons/common/chevron-right.png")} alt="" className="chevron" />
-                            <button className="data-button">Data</button>
+                            <button className="data-button">{pageName}</button>
                         </nav>
                         <img src={require("../../assets/img/brand/image 15.png")} alt="Company Logo" className="logo" />
                     </div>
