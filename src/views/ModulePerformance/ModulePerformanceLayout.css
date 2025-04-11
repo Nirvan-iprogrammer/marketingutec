@@ -68,7 +68,7 @@
 }
 
 .custom-tab {
-  min-width: 500px;
+  min-width: 480px;
   height: 37px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -84,6 +84,6 @@
 
 .custom-tab.active {
   background-color: #000;
-  color: #fff;
+  color: yellow;
   font-weight: 600;
 }

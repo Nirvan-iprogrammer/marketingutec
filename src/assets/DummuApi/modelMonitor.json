@@ -1,0 +1,141 @@
+{
+    "status": 200,
+    "transaction_id": "07d1b17b-c03b-4be1-ae01-498e4fd64e45",
+    "message": "DATA_RETRIEVED_SUCCESSFULLY | Model performance report fetched for ['MOD007', 'MOD002']",
+    "data": [
+        {
+            "module_id": "MOD007",
+            "module_name": "Stakeholder 360",
+            "metrics": {
+                "SUBMOD012": {
+                    "sub_module_name": "SLM",
+                    "MM0029": [
+                        {
+                            "metric_name": "Segment transition Rate",
+                            "movement_matrix": {
+                                "Evolving Stakeholders": {
+                                    "Evolving Stakeholders": 1360
+                                }
+                            },
+                            "upgraded_customers": [],
+                            "downgraded_customers": [],
+                            "num_upgraded_customers": 0,
+                            "num_downgraded_customers": 0,
+                            "num_no_change_customers": 1360,
+                            "perc_upgraded_customers": 0,
+                            "perc_downgraded_customers": 0,
+                            "perc_no_change_customers": 100,
+                            "improvement_score": 0,
+                            "benchmark_start_date": "2024-09-01T00:00:00",
+                            "monitored_start_date": "2024-10-01T00:00:00",
+                            "metric_type": "model"
+                        },
+                        {
+                            "metric_name": "Segment transition Rate",
+                            "movement_matrix": {
+                                "Evolving Stakeholders": {
+                                    "Evolving Stakeholders": 1360
+                                }
+                            },
+                            "upgraded_customers": [],
+                            "downgraded_customers": [],
+                            "num_upgraded_customers": 0,
+                            "num_downgraded_customers": 0,
+                            "num_no_change_customers": 1360,
+                            "perc_upgraded_customers": 0,
+                            "perc_downgraded_customers": 0,
+                            "perc_no_change_customers": 100,
+                            "improvement_score": 0,
+                            "benchmark_start_date": "2024-09-01T00:00:00",
+                            "monitored_start_date": "2024-10-01T00:00:00",
+                            "metric_type": "model"
+                        }
+                    ],
+                    "MOM0008": [
+                        {
+                            "metric_name": "PSI Index",
+                            "benchmark_start_date": "2022-04-01T00:00:00",
+                            "benchmark_end_date": "2023-04-30T00:00:00",
+                            "monitored_start_date": "2024-10-14T00:00:00",
+                            "monitored_end_date": "2024-11-14T00:00:00",
+                            "period_in_months": 1,
+                            "threshold": 0.25,
+                            "PSI Index": 10.200755356788486,
+                            "metric_type": "model"
+                        },
+                        {
+                            "metric_name": "PSI Index",
+                            "benchmark_start_date": "2022-04-01T00:00:00",
+                            "benchmark_end_date": "2023-04-30T00:00:00",
+                            "monitored_start_date": "2024-10-14T00:00:00",
+                            "monitored_end_date": "2024-11-14T00:00:00",
+                            "period_in_months": 1,
+                            "threshold": 0.25,
+                            "PSI Index": 10.200755356788486,
+                            "metric_type": "model"
+                        }
+                    ],
+                    "MM0034": [
+                        {
+                            "metric_name": "Valid Age of Relationship ",
+                            "fail_count": 1,
+                            "valid_count": 18,
+                            "failed_ids": [
+                                "STK00000001"
+                            ],
+                            "monitored_start_date": "2024-09-01T00:00:00",
+                            "monitored_end_date": "2024-11-14T19:08:14.207000",
+                            "metric_type": "model"
+                        },
+                        {
+                            "metric_name": "Valid Age of Relationship ",
+                            "fail_count": 1,
+                            "valid_count": 18,
+                            "failed_ids": [
+                                "STK00000001"
+                            ],
+                            "monitored_start_date": "2024-09-01T00:00:00",
+                            "monitored_end_date": "2024-11-14T14:36:33.944000",
+                            "metric_type": "model"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "module_id": "MOD002",
+            "module_name": "Solution 360- Product Recommendations",
+            "metrics": {
+                "SUBMOD005": {
+                    "sub_module_name": "PR - Output",
+                    "MOM0005": [
+                        {
+                            "metric_name": "Recommendation Coverage ",
+                            "coverage_percentage": 11.965811965811966,
+                            "monitored_end_date": "2024-11-14T14:34:51.203000",
+                            "metric_type": "output"
+                        }
+                    ],
+                    "MM0029": [
+                        {
+                            "metric_name": "Segment Transition Rate",
+                            "movement_matrix": {},
+                            "upgraded_customers": [],
+                            "downgraded_customers": [],
+                            "num_upgraded_customers": 0,
+                            "num_downgraded_customers": 0,
+                            "num_no_change_customers": 0,
+                            "perc_upgraded_customers": 0,
+                            "perc_downgraded_customers": 0,
+                            "perc_no_change_customers": 0,
+                            "improvement_score": 0,
+                            "benchmark_start_date": "2024-09-01T00:00:00",
+                            "monitored_start_date": "2024-10-01T00:00:00",
+                            "metric_type": "model"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

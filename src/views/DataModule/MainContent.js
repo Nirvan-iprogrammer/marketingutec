@@ -2,7 +2,7 @@ import { ENDPOINT } from 'config/api-endpoints';
 import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import { GET } from 'services/axios-request-handlers';
-import SelectBox from './SelectBox';
+import SelectBox from '../../components/SelectBox/SelectBox';
 import masterJson from "../../assets/DummuApi/master.json";
 import masterTableData from "../../assets/DummuApi/masterTableData.json";
 import { CustomTable } from 'components/Table/CustomTable';
@@ -14,7 +14,7 @@ import './MainContent.css';
 const MainContent = () => {
     const [masterData, setMasterData] = useState([]);
     const [masterDataKey, setMasterDataKey] = useState([]);
-    const [selectedTable, setSelectedTable] = React.useState('');
+    const [selectedTable, setSelectedTable] = useState('');
     const [page, setPage] = useState(1);
     const [size, setSize] = useState(10);
     const [searchString, setSearchString] = useState("");
@@ -52,7 +52,7 @@ const MainContent = () => {
                 formatter: (cell) => new Date(cell).toLocaleDateString(),
             },
         ];
-    
+
         if (showActions) {
             baseColumns.unshift({
                 dataField: "actions",
@@ -74,10 +74,10 @@ const MainContent = () => {
                 ),
             });
         }
-    
+
         return baseColumns;
     };
-    
+
     // Then in your component
     const columnData = getColumnData(showForm); // or false
 
@@ -113,16 +113,33 @@ const MainContent = () => {
         getMastTableData();
     }, []);
 
-  
-  const lastIndexPage = page * size;
-  const firstIndexPage = lastIndexPage - size;
-  const displayItems = masterData.slice(firstIndexPage, lastIndexPage);
 
+    const lastIndexPage = page * size;
+    const firstIndexPage = lastIndexPage - size;
+    const displayItems = masterData.slice(firstIndexPage, lastIndexPage);
 
+    const allKeys = [];
+
+    masterJson.data.result.forEach(item => {
+        Object.keys(item).forEach(key => {
+            if (!allKeys.includes(key)) {
+                allKeys.push(key);
+            }
+        });
+    });
+
+    console.log("All unique keys: data", allKeys);
 
     return (
         <div className="main-content-table">
-            <SelectBox masterData={masterDataKey} selectedTable={selectedTable} setSelectedTable={setSelectedTable} />
+            <SelectBox
+                valueKey={allKeys[0]}
+                labelKey={allKeys[1]}
+                tag={"Select master table"}
+                masterData={masterDataKey}
+                selectedTable={selectedTable}
+                setSelectedTable={setSelectedTable}
+            />
             <div className="header-section-table">
                 <div className="header-line">
                     <span className="header-text">
@@ -140,7 +157,7 @@ const MainContent = () => {
                     />
                 </div>
             </div>
-            
+
 
             <div className="table-container">
                 <CustomTable
@@ -153,7 +170,7 @@ const MainContent = () => {
                         console.log("Paginate called:", type, page, sizePerPage);
                         setPage(page);
                         setSize(sizePerPage);
-                      }}
+                    }}
                     keyField="product_code"
                     showPagination={true}
                     showSearchInput={false}

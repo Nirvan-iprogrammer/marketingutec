@@ -1,0 +1,34 @@
+{
+    "data": {
+        "result": [
+            {
+                "module_id": "MOD001",
+                "module_name": "Solution 360 - Project Potential"
+            },
+            {
+                "module_id": "MOD002",
+                "module_name": "Solution 360 - Product Recommendations"
+            },
+            {
+                "module_id": "MOD003",
+                "module_name": "Solution 360 - CPP and E Catalogue"
+            },
+            {
+                "module_id": "MOD004",
+                "module_name": "LNBA"
+            },
+            {
+                "module_id": "MOD005",
+                "module_name": "Stakeholder Health Score"
+            },
+            {
+                "module_id": "MOD006",
+                "module_name": "Customer Experience"
+            },
+            {
+                "module_id": "MOD007",
+                "module_name": "Stakeholder 360"
+            }
+        ]
+    }
+}

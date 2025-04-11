@@ -1,29 +1,3 @@
-// import React from 'react';
-// import './ModulePerformanceLayout.css';
-// import ModulePerformanceHeader from './ModulePerformanceHeader';
-// import NoDataDisplay from './NoDataDisplay';
-
-// const ModulePerformanceLayout = () => {
-//   return (
-//     <div className="module-performance-layout">
-
-//       <main className="main-content-module">
-//         {/* <ModulePerformanceHeader /> */}
-//         <div className="module-tabs">
-//           <button className="tab active">Output data monitoring</button>
-//           <button className="tab">Model monitoring</button>
-//           <button className="tab">Input data monitoring</button>
-//         </div>
-//         <NoDataDisplay />
-//       </main>
-//     </div>
-//   );
-// };
-
-// export default ModulePerformanceLayout;
-
-
-
 import React, { useState } from "react";
 import { Nav, NavItem, NavLink, TabContent, TabPane } from "reactstrap";
 import classnames from "classnames";
@@ -33,6 +7,9 @@ import dataMonitor from "./dataMonitor";
 import NoDataDisplay from "./NoDataDisplay";
 import "./ModulePerformanceLayout.css";
 import InputMonitor from "./InputMonitor";
+import SelectBox from "../../components/SelectBox/SelectBox";
+import moduleDropDown from "../../assets/DummuApi/moduleDropDown.json";
+import { all } from "axios";
 
 const pageData = [
   {
@@ -52,40 +29,60 @@ const pageData = [
   },
 ];
 
+
+
+
+
 const ModulePerformanceLayout = () => {
+  console.log("ModulePerformanceLayout", moduleDropDown.data.result);
   const [activeTab, setActiveTab] = useState(0);
+  const [masterDataKey, setMasterDataKey] = useState([moduleDropDown.data.result]);
+  const [selectedTable, setSelectedTable] = useState('');
 
   const toggle = (tabId) => {
     if (activeTab !== tabId) setActiveTab(tabId);
   };
 
+  const allKeys = [];
+
+  moduleDropDown.data.result.forEach(item => {
+    Object.keys(item).forEach(key => {
+      if (!allKeys.includes(key)) {
+        allKeys.push(key);
+      }
+    });
+  });
+
+
+  console.log("All unique keys: Module", allKeys);
+
   return (
-    <div>
-    <div className="d-flex justify-content-center">
-      <Nav className="custom-tab-nav">
-        {pageData.map((tab) => (
-          <NavItem key={tab.id}>
-            <NavLink
-               className={classnames("custom-tab", { active: activeTab === tab.id })}
-              onClick={() => toggle(tab.id)}
-              // style={{
-              //   cursor: "pointer",
-              //   borderBottom: activeTab === tab.id ? "3px solid #000" : "none",
-              //   fontWeight: activeTab === tab.id ? "bold" : "normal",
-              //   backgroundColor: activeTab === tab.id ? "#000" : "#f8f9fa",
-              //   color: activeTab === tab.id ? "#fff" : "#000",
-              //   borderRadius: "0",
-              //   padding: "10px 20px",
-              //   width: "100%",
-              // }}
-            >
-              {tab.name}
-            </NavLink>
-          </NavItem>
-        ))}
-      </Nav>
-    </div>
-    <TabContent activeTab={activeTab}>
+    <div style={{padding: "32px"}}>
+      <SelectBox
+        tag={"Go to module"}
+        valueKey={allKeys[0]}
+        labelKey={allKeys[1]}
+        masterData={moduleDropDown.data.result}
+        selectedTable={selectedTable}
+        setSelectedTable={setSelectedTable}
+      />
+
+      <div className="d-flex justify-content-center">
+        <Nav className="custom-tab-nav">
+          {pageData.map((tab) => (
+            <NavItem key={tab.id}>
+              <NavLink
+                className={classnames("custom-tab", { active: activeTab === tab.id })}
+                onClick={() => toggle(tab.id)}
+              >
+                {tab.name}
+              </NavLink>
+            </NavItem>
+          ))}
+        </Nav>
+      </div>
+
+      <TabContent activeTab={activeTab}>
         {pageData.map((tab) => {
           const Component = tab.pageContent;
           return (

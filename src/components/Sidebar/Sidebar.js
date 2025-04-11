@@ -189,34 +189,12 @@ const Sidebar = (props) => {
         }
         return (
           <NavItem
-            // style={{
-            //   width: '100%',
-            //   borderRadius: '8px',
-            //   marginBottom: '8px',
-            //   overflow: 'hidden',
-            // }}
-            // className={activeRoute(prop.layout + prop.path)}
             className={`navItem ${activeRoute(prop.layout + prop.path) ? 'active' : ''}`}
             key={key}
           >
             <NavLink
-              className={`${activeRoute(prop.layout + prop.path)} Navlink`}
-              style={{
-                padding: '12px 16px',
-                marginRight: "1rem",
-                marginLeft: "1rem",
-                display: 'flex',
-                alignItems: 'center',
-                listStyleType: 'none',
-                gap: '12px',
-                color: activeRoute(prop.layout + prop.path) ? '#000000' : '#fff',
-                backgroundColor: activeRoute(prop.layout + prop.path) ? '#FFF200' : 'transparent',
-                borderRadius: '8px',
-                fontFamily: 'Inter',
-                fontSize: '15px',
-                fontWeight: 500,
-                transition: 'all 0.3s ease',
-              }}
+              // className={`${activeRoute(prop.layout + prop.path)} Navlink`}
+              className={`custom-navlink ${activeRoute(prop.layout + prop.path) ? 'active' : ''}`}
               
               to={prop.layout + prop.path}
               // activeClassName=""
