@@ -1,0 +1,66 @@
+.chart-container {
+    width: 100%;
+    min-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .chart-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D2939;
+  }
+  
+  .chart-content {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    padding: 24px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .y-axis-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #475467;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: 20px;
+  }
+  
+  .chart-area {
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .line-graph {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .x-axis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .x-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    color: #667085;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  

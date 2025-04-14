@@ -3,6 +3,7 @@ import { Nav, NavItem, NavLink, TabContent, TabPane } from "reactstrap";
 import classnames from "classnames";
 
 import moduleMonitor from "./moduleMonitor";
+import QuantityErrorLayout from "./QuantityErrorCard_ErrorTable/QuantityErrorLayout";
 import dataMonitor from "./dataMonitor";
 import NoDataDisplay from "./NoDataDisplay";
 import "./ModulePerformanceLayout.css";
@@ -15,7 +16,7 @@ const pageData = [
   {
     name: "Output data monitoring",
     id: 0,
-    pageContent: dataMonitor,
+    pageContent: QuantityErrorLayout,
   },
   {
     name: "Model monitoring",

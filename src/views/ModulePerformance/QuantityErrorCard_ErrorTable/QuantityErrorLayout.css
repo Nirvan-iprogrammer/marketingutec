@@ -1,0 +1,20 @@
+.quantity-error-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1296px;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #eaecf0;
+}
+
+.quantity-error-card {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.error-table {
+    flex-grow: 1;
+}
+
