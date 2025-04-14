@@ -5,7 +5,13 @@ import QuestionIcon from "../src/assets/img/icons/common/Content.png"
 import ModulePerformanceLayout from "views/ModulePerformance/ModulePerformanceLayout";
 import Layout from "components/Navbars/Layout";
 import MainContent from "views/DataModule/MainContent";
-import DataIcon from "../src/assets/img/icons/common/data.svg"
+import DataIcon from "../src/assets/img/icons/common/DataWhite.png"
+import DataIconActive from "../src/assets/img/icons/common/data.svg"
+import HomeIcon from "../src/assets/img/icons/common/HomeWhite.png"
+import HomeActiveIcon from "../src/assets/img/icons/common/home.png"
+import ScenarioIcon from "../src/assets/img/icons/common/carbon_text-link-analysis.png"
+import ModuleIcon from "../src/assets/img/icons/common/carbon_result.png"
+
 
 var routes = [
   //  {
@@ -39,7 +45,7 @@ var routes = [
   {
     path: "/home",
     name: "Home",
-    icon: "fa-solid fa-house",
+    icon: HomeIcon,
     component:<LoginSSO />,
     layout: "/admin",
     isSidebarLink: true
@@ -47,7 +53,7 @@ var routes = [
   {
     path: "/scenario",
     name: "Scenario Performance",
-    icon: "ni ni-single-02",
+    icon: ScenarioIcon,
     component: <LoginSSO />,
     layout: "/admin",
     isSidebarLink: true
@@ -55,7 +61,7 @@ var routes = [
   {
     path: "/performance",
     name: "Module Performance",
-    icon: "fa-solid fa-clipboard-list",
+    icon: ModuleIcon,
     component: <ModulePerformanceLayout />,
     layout: "/admin",
     isSidebarLink: true
@@ -63,7 +69,7 @@ var routes = [
   {
     path: "/data",
     name: "Data",
-    icon: "fa-solid fa-share-nodes",
+    icon:DataIcon,
     component: <MainContent />,
     layout: "/admin",
     isSidebarLink: true
@@ -71,7 +77,7 @@ var routes = [
   {
     path: "/query",
     name: "Query",
-    icon: "fa-solid fa-question",
+    icon: QuestionIcon,
     component: <ModulePerformanceLayout />,
     layout: "/admin",
     isSidebarLink: true

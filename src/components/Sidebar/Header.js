@@ -4,7 +4,7 @@ import './Header.css';
 const Header = ({ isCollapsed, toggleSidebar }) => {
   return (
     <div className="header">
-      <div className="header-content">
+      <div className="header-content-sidebar">
         <div className="logo-container">
           <div className="logo-bars">
            <img src={require("../../assets/img/brand/Frame 811779 (1).png")}  alt="bar-1" className="bar" />

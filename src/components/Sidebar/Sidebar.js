@@ -102,7 +102,7 @@ const Sidebar = (props) => {
     return false;
   };
 
-  
+
   // creates the links that appear in the left menu / Sidebar
   // const createLinks = (routes) => {
   //   return routes.map((prop, key) => {
@@ -124,7 +124,7 @@ const Sidebar = (props) => {
   const createLinks = (routes) => {
 
     return routes.map((prop, key) => {
-    
+        console.log(prop, "prop")
       if (!prop.isSidebarLink) return null;
       if (
         prop?.name?.toLowerCase() === "user management" &&
@@ -152,8 +152,6 @@ const Sidebar = (props) => {
                 style={{
                   color: activeRoute(prop.layout + prop.path) ? '#fff' : '#d0d5dd',
                   backgroundColor: activeRoute(prop.layout + prop.path) ? '#FFF200' : 'transparent',
-                  listStyleType: 'none',
-                  paddingLeft: 0
                 }}
                 href="#pablo"
                 data-toggle="collapse"
@@ -169,7 +167,6 @@ const Sidebar = (props) => {
                 {prop.icon ? (
                   <>
                     <i className={prop.icon} />
-                    <span className="nav-icon">{prop.icon}</span>
                     <span className="nav-link-text">{prop.name}</span>
                   </>
                 ) : prop.miniName ? (
@@ -195,12 +192,30 @@ const Sidebar = (props) => {
             <NavLink
               // className={`${activeRoute(prop.layout + prop.path)} Navlink`}
               className={`custom-navlink ${activeRoute(prop.layout + prop.path) ? 'active' : ''}`}
-              
+
               to={prop.layout + prop.path}
               // activeClassName=""
               tag={NavLinkRRD}
             >
               {prop.icon !== undefined ? (
+                <>
+                 <img
+                  src={prop.icon}
+                  alt={prop.name}
+                  classnames={prop.icon}
+                  style={{ width: "20px", height: "20px", marginRight: "10px" }}
+                />
+                <span className="nav-link-text">{prop.name}</span>
+                </>
+              ) : prop.miniName !== undefined ? (
+                <>
+                <i className={prop.icon} />
+                <span className="nav-link-text">{prop.name}</span>
+                </>
+              ):(
+                prop.name
+              )}
+              {/* {prop.icon !== undefined ? (
                 <>
                   <i className={prop.icon} />
                   <span className="nav-link-text">{prop.name}</span>
@@ -212,7 +227,7 @@ const Sidebar = (props) => {
                 </>
               ) : (
                 prop.name
-              )}
+              )} */}
             </NavLink>
           </NavItem>
         );
@@ -247,7 +262,7 @@ const Sidebar = (props) => {
   return (
     <Navbar
       className="navbar-vertical fixed-left navbar-light"
-      style={{ backgroundColor: "#1c1c1c", width: isCollapsed ? "80px" : "250px" }}
+      style={{ backgroundColor: "#1c1c1c", width: isCollapsed ? "77px" : "280px" }}
       expand="md"
       id="sidenav-main"
     >
